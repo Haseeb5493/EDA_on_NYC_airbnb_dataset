@@ -1,0 +1,5 @@
+Important Points
+->Firstly there are some values missing in columns 'name' and 'host_name' as these values are less then 20 so dropped them
+->Secondly there are two columns that contain 25% missing values, those columns are 'reviews_per_month' and 'last_review', 
+these values are greater so I filled missing values of 'review_per_month' with 0 and missingvalues of 'last_reviews' with 'no review
+->Next, after plotting numerical values, I figure out lots of outliers in numerical columns, but I removed outliers from 'price' column only
